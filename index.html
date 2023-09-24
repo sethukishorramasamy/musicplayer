@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Music Streaming Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Music Streaming Website</h1>
+    </header>
+    <main>
+
+        <section class="music-player">
+            <audio id="audio-player" controls>
+                <source src="music1.mp3" type="audio/mpeg">
+                <source src="music2.mp3" type="audio/mpeg">
+                <source src="music3.mp3" type="audio/mpeg">
+                <source src="music4.mp3" type="audio/mpeg">
+                <source src="music5.mp3" type="audio/mpeg">
+                <source src="music6.mp3" type="audio/mpeg">
+                <source src="music7.mp3" type="audio/mpeg">
+                <source src="music8.mp3" type="audio/mpeg">
+                <source src="music9.mp3" type="audio/mpeg">
+                <source src="music10.mp3" type="audio/mpeg">
+                <source src="music11.mp3" type="audio/mpeg">
+            </audio>
+            <section class="music-info">
+
+                <p id="current-song">Song Name</p>
+            </section>
+            <div class="player-controls">
+                <button id="play-button">Play</button>
+                <button id="pause-button">Pause</button>
+                <button id="fullscreen-button"><i class="fas fa-expand"></i></button>
+
+            </div>
+        </section>
+
+        <section class="playlist">
+            <ul>
+                <li><a href="music1.mp3" class="active">Song 1</a></li>
+                <li><a href="music2.mp3">Song 2</a></li>
+                <li><a href="music3.mp3">Song 3</a></li>
+                <li><a href="music4.mp3">Song 4</a></li>
+                <li><a href="music5.mp3">Song 5</a></li>
+                <li><a href="music6.mp3">Song 6</a></li>
+                <li><a href="music7.mp3">Song 7</a></li>
+                <li><a href="music8.mp3">Song 8</a></li>
+                <li><a href="music9.mp3">Song 9</a></li>
+                <li><a href="music10.mp3">Song 10</a></li>
+                <li><a href="music11.mp3">Song 11</a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
