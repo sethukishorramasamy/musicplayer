@@ -27,3 +27,10 @@ To run the music player locally, follow these steps:
 - HTML
 - CSS
 - JavaScript
+
+
+## Author
+- [Sethu Kishor](https://github.com/sethukishorramasamy)
+
+## License
+This project is open-source and available under the [MIT License](LICENSE).
